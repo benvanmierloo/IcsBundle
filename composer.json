@@ -18,7 +18,7 @@
         }
     ],
     "require":      {
-        "jsvrcek/ics":         		"dev-master",
+        "jsvrcek/ics":         		"dev-DSTbug",
         "symfony/framework-bundle": ">=2.0"
     },
     "autoload":     {
