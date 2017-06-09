@@ -4,15 +4,21 @@
     "keywords":     ["ical", "calendar", "export", ".ics", "RFC 5545"],
     "type":         "symfony-bundle",
     "license":      "MIT",
-    "homepage": "https://github.com/jasvrcek/IcsBundle",
+    "homepage": "https://github.com/b/IcsBundle",
     "authors":  [
         {
             "name": "Justin Svrcek",
             "homepage": "https://github.com/jasvrcek"
         }
     ],
+	"repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/benvanmierloo/ICS"
+        }
+    ],
     "require":      {
-        "jsvrcek/ics":         		"~0.1",
+        "jsvrcek/ics":         		"dev-master",
         "symfony/framework-bundle": ">=2.0"
     },
     "autoload":     {
